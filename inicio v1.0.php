@@ -4,44 +4,273 @@ Template Name: Inicio
 */
 ?>
 <?php get_header(); ?>
+
+<div class="row grid show-desktop" id="titulo">
+	<div class="col_12">
+	  	<div id="owl-demo" class="owl-carousel">
+		    <div class="item"><a href="#"><h1>prueba 2</h1></a></div>
+		    <div class="item"><a href="#"><h1>prueba 3</h1></a></div>
+		    <div class="item"><a href="#"><h1>prueba 4</h1></a></div>
+	  	</div>
+	</div>
+</div>
+
 <div class="row grid">
 	<div class="col_12">
 		<div id="nproductos" class="owl-carousel">
-		    <div class="item orange"><h1>1</h1></div>
-		    <div class="item darkCyan"><h1>2</h1></div>
-		    <div class="item yellow"><h1>3</h1></div>
-		    <div class="item forestGreen"><h1>4</h1></div>
-		    <div class="item dodgerBlue"><h1>5</h1></div>
-		    <div class="item skyBlue"><h1>6</h1></div>
-		    <div class="item zombieGreen"><h1>7</h1></div>
-		    <div class="item violet"><h1>8</h1></div>
-		    <div class="item steelGray"><h1>9</h1></div>
-		    <div class="item dodgerBlue"><h1>10</h1></div>
-		    <div class="item darkCyan"><h1>11</h1></div>
-		    <div class="item zombieGreen"><h1>12</h1></div>
-		    <div class="item orange"><h1>13</h1></div>
-		    <div class="item forestGreen"><h1>14</h1></div>
-		    <div class="item skyBlue"><h1>15</h1></div>
-		    <div class="item darkCyan"><h1>16</h1></div>
-		    <div class="item zombieGreen"><h1>7</h1></div>
-		    <div class="item violet"><h1>8</h1></div>
-		    <div class="item steelGray"><h1>9</h1></div>
-		    <div class="item dodgerBlue"><h1>10</h1></div>
-		    <div class="item darkCyan"><h1>11</h1></div>
-		    <div class="item zombieGreen"><h1>12</h1></div>
-		    <div class="item orange"><h1>13</h1></div>
-		    <div class="item forestGreen"><h1>14</h1></div>
-		    <div class="item skyBlue"><h1>15</h1></div>
-		    <div class="item darkCyan"><h1>16</h1></div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
+		    <div class="item zombieGreen">
+		    	<div class="cimageh">
+		    		<a href="#">
+		    			<img src="http://placehold.it/300x300/4D99E0/ffffff.png">
+		    		</a>
+		    	</div>
+				<div class="ctextoh">
+					<h1>Nombre de la promoción</h1>
+					<p>
+						<span>15 Octubre, 2013</span><br>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr. At vero eos et accusam et justo duo dolores et...
+					</p>
+					<div class="cleerh"><a href="#">Leer más</a></div>
+				</div>
+		</div>
 		</div>
 	</div>
 </div>
 <div class="clearfix"></div>
 
+<div class="row grid">
+	<div class="col_12" id="tvh">
+		Tipos de vivienda
+	</div>
+</div>
 
-	<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="1000" data-height="500" data-responsive="true" data-slideshadow="true" data-resizemode="fill" data-showtimer="true" data-thumbwidth="130" data-thumbheight="130">
+<div class="row grid">
+	<div class="col_12">
+		<div id="viviendash" class="owl-carousel">
+			<div class="item zombieGreen">
+			    <div class="col_6" id="imagenvh">
+			    	<a href="#"><img src="http://placehold.it/150x150/4D99E0/ffffff.png"></a>
+			    </div>
+			    <div class="col_6" id="cvh">
+			    	<a href="#"><h1>Vivienda 1</h1></a>
+			    	<p>Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut ali akl amet veniam laboris lorem ipsum....</p>
+					<a href="#" class="lmvh">Ver planos</a>
+			    </div>
+			    <div class="clearfix"></div>
+		    </div>
+
+			<div class="item zombieGreen">
+			    <div class="col_6" id="imagenvh">
+			    	<a href="#"><img src="http://placehold.it/150x150/4D99E0/ffffff.png"></a>
+			    </div>
+			    <div class="col_6" id="cvh">
+			    	<a href="#"><h1>Vivienda 1</h1></a>
+			    	<p>Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut ali akl amet veniam laboris lorem ipsum....</p>
+					<a href="#" class="lmvh">Ver planos</a>
+			    </div>
+			    <div class="clearfix"></div>
+		    </div>
+
+		    <div class="item zombieGreen">
+			    <div class="col_6" id="imagenvh">
+			    	<a href="#"><img src="http://placehold.it/150x150/4D99E0/ffffff.png"></a>
+			    </div>
+			    <div class="col_6" id="cvh">
+			    	<a href="#"><h1>Vivienda 1</h1></a>
+			    	<p>Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut ali akl amet veniam laboris lorem ipsum....</p>
+					<a href="#" class="lmvh">Ver planos</a>
+			    </div>
+			    <div class="clearfix"></div>
+		    </div>
+
+			<div class="item zombieGreen">
+			    <div class="col_6" id="imagenvh">
+			    	<a href="#"><img src="http://placehold.it/150x150/4D99E0/ffffff.png"></a>
+			    </div>
+			    <div class="col_6" id="cvh">
+			    	<a href="#"><h1>Vivienda 1</h1></a>
+			    	<p>Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut ali akl amet veniam laboris lorem ipsum....</p>
+					<a href="#" class="lmvh">Ver planos</a>
+			    </div>
+			    <div class="clearfix"></div>
+		    </div>
+
+
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+
+<!--
+<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="1000" data-height="500" data-responsive="true" data-slideshadow="true" data-resizemode="fill" data-showtimer="true" data-thumbwidth="130" data-thumbheight="130">
 		<a href="http://construyendoideas.com/federaciondeciclismo/wp-content/uploads/2014/03/galeria-1.jpg"><img src="http://construyendoideas.com/federaciondeciclismo/wp-content/uploads/2014/03/galeria-1.jpg"></a>
 		<a href="http://construyendoideas.com/federaciondeciclismo/wp-content/uploads/2014/03/galeria2.jpg"><img src="http://construyendoideas.com/federaciondeciclismo/wp-content/uploads/2014/03/galeria2.jpg"></a>
 	</div>
+-->
 
 <?php get_footer(); ?>

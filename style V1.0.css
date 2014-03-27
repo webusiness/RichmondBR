@@ -10,34 +10,26 @@ Tags: starkers, html5, naked, clean, basic
 
 @import "css/wordpress.css";
 body {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family:Arial,Helvetica,sans-serif;
 }
 
 
 .cabecera {
-	background: #dbebcf;
+  background: #dbebcf;
 }
 
 #nproductos .item{
   display: block;
-  padding: 30px 0px;
+  padding: 10px 0px;
   margin: 5px;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  color: #000;
   text-align: center;
 }
 .owl-theme .owl-controls .owl-buttons div {
   padding: 5px 9px;
 }
-
-.owl-theme .owl-buttons i{
-  margin-top: 2px;
-}
-
-/*To move navigation buttons outside use these settings:*/
 
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
@@ -51,4 +43,338 @@ body {
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: -45px;
   top: 55px;
+}
+
+#cabeh > div.col_6 > div > li {
+  list-style: none;
+  color: #FF5100;
+  float: left;
+}
+
+#cabeh > div.col_6 > .telefono {
+  width: 100%;
+  max-width: 350px;
+  min-height: 25px;
+  float: right;
+  margin-top: 30px;
+}
+
+#cabeh > div.col_6 > div.telefono > li > .textwidget {
+  background: url(images/phoneheader.png) no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+
+#search input[type="text"] {
+  background: url(images/search-white.png) no-repeat 165px -3px #fcfcfc;
+  border: 1px solid #878787;
+  color: #878787;
+  width: 200px;
+  font-size: 12px;
+  padding: 3px 35px 3px 9px;
+  margin-top: -10px;
+}
+
+#search input[type="text"]:focus {
+  width: 200px;
+}
+
+#maximage > div > div.in-slide-content {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#owl-demo > div > div > div > div > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#owl-demo > div > div > div > div > a > h1 {
+  background: url(images/ftituloh.png);
+  float:left;
+  clear:left;
+  padding: 5px 15px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#titulo {
+  height: 100px;
+  width: 100%;
+  padding-top: 70px;
+  margin-bottom: 150px;
+}
+
+#nproductos > div.owl-wrapper-outer > div > div > div > div.cimageh {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ctextoh {
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.ctextoh h1 {
+  color: #549523;
+  font-size: 15px;
+  margin: 0;
+}
+
+.ctextoh p span {
+  font-weight: 700;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#nproductos > div.owl-wrapper-outer > div > div > div > div.ctextoh > div.cleerh {
+  background-color: #59912f;
+  width: 70px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#nproductos > div.owl-wrapper-outer > div > div > div > div.ctextoh > div > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nproductos .owl-controls,
+#viviendash .owl-controls {
+  margin-top: 20px;
+}
+
+#nproductos .owl-controls .owl-buttons .owl-prev,
+#nproductos .owl-controls .owl-buttons .owl-next {
+  opacity: 1;
+  color: transparent;
+  border-radius: 0;
+  height: 88px;
+  width: 67px;
+  top: 130px;
+}
+
+#viviendash .owl-controls .owl-buttons .owl-prev,
+#viviendash .owl-controls .owl-buttons .owl-next {
+  opacity: 1;
+  color: transparent;
+  border-radius: 0;
+  height: 88px;
+  width: 67px;
+  top: 30px;
+}
+
+
+#nproductos .owl-controls .owl-buttons .owl-prev,
+#viviendash .owl-controls .owl-buttons .owl-prev {
+  background: url(images/fizhome.png);
+  background-repeat: no-repeat;
+  left: -70px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#nproductos .owl-controls .owl-buttons .owl-next,
+#viviendash .owl-controls .owl-buttons .owl-next {
+  background: url(images/fderhome.png);
+  background-repeat: no-repeat;
+  right: -75px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#nproductos .owl-controls .owl-buttons .owl-prev:hover,
+#viviendash .owl-controls .owl-buttons .owl-prev:hover {
+  background: url(images/fizhomeh.png);
+  background-repeat: no-repeat;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#nproductos .owl-controls .owl-buttons .owl-next:hover,
+#viviendash .owl-controls .owl-buttons .owl-next:hover {
+  background: url(images/fderhomeh.png);
+  background-repeat: no-repeat;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#tvh {
+  background: #59912f;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#viviendash .item{
+  display: block;
+  padding:0px;
+  margin: 5px;
+  color: #000;
+  text-align: center;
+}
+
+#viviendash .zombieGreen {
+  background: #ffffff;
+}
+
+#viviendash > div.owl-wrapper-outer > div > div > div > div {
+  margin: 0;
+  text-align: left;
+}
+
+#imagenvh {
+  width: 170px;
+  height: 150px;
+  margin-right: 5px;
+}
+
+#cvh a h1{
+  color: #59912f;
+  font-size: 25px;
+  margin: 3px 0;
+  margin: 9px 0px -11px 0px;
+}
+
+#cvh > p {
+  margin: 12px 0px -1px 0px;
+}
+
+#cvh a.lmvh {
+  text-decoration: underline;
+  margin: 0;
+}
+
+footer {
+  background: url(images/fondofotter.png);
+  width: 100%;
+  color: #ffffff;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.59);
+}
+
+footer > div.row.grid > div > .ficons {
+  float: left;
+  margin-right: 8px;
+}
+
+footer > div.row.grid > div > .ficons li {
+  list-style: none;
+  margin-top: -16px;
+  margin-left: 33px;
+}
+footer > div > div > div > a > img {
+  width: 20px;
+}
+
+body > footer > div > div.col_2 {
+font-size: 12px;
+}
+
+#cfooter {
+  margin: 0px;
+  margin-bottom: -10px;
+  margin-top: 12px;
+}
+
+body > footer > div > div > a {
+  color: #ffffff;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.59);
+}
+
+#titulopage h1 {
+  background: #59912f;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: -17px;
+  float: left;
+}
+
+#contenidopage {
+  background: #dbebcf;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+
+
+
+/* MEDIA RESPONSIVE */
+
+@media screen and (max-width: 805px) {
+  .cabecera {
+    padding-top: 55px;
+  }
+  #nproductos .owl-controls .owl-buttons .owl-prev,
+  #viviendash .owl-controls .owl-buttons .owl-prev,
+  #nproductos .owl-controls .owl-buttons .owl-next,
+  #viviendash .owl-controls .owl-buttons .owl-next {
+    display: none;
+  }
+  #cabeh > div.col_3 {
+    text-align: center;
+  }
+  #cabeh > div.col_6 > .telefono {
+    margin: 0 auto;
+    width: 350px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #viviendash > div.owl-wrapper-outer > div > div > div > div {
+    text-align: center;
+    width: 100%;
+  }
+  #nproductos > div.owl-wrapper-outer > div > div > div > div.cimageh {
+    height: auto;
+  }
+  #titulopage h1 {
+    margin-bottom: -8px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  #cabeh > div.col_6 > div > li {
+    text-align: center;
+    width: 100%;
+  }
+
+  #cabeh > div.col_6 > div.telefono > li > .textwidget {
+    width: 138px;
+    margin: 0 auto;
+  }
+
+  #cabeh > div.col_6 > .telefono {
+    width: 100%;
+    text-align: center;
+  }
 }
